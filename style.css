@@ -164,3 +164,9 @@ header h1 {
         width: 150px;
     }
 }
+
+.happy{
+    border-radius: 20px;
+    scale: 1.1;
+    transition: .4s;
+}

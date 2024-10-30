@@ -51,3 +51,8 @@ function showCategoryProducts(event) {
         productListContainer.innerHTML = productListHTML;
     }
 }
+
+
+function handleClick() {
+    document.getElementById('DivContainer').classList.toggle('happy');
+}
