@@ -1,4 +1,4 @@
 function handleClick() {
-    const div = document.getElementById('DivContainer');
-    div.classList.toggle('happy');
+    document.getElementById('DivContainer').classList.toggle('happy');
+    document.body.classList.toggle('blue');
 }
