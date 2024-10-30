@@ -1,4 +1,4 @@
-```markdown
+
 # GruppenProjekt-Andre-Orhan-Norman
 
 Dies ist eine Gruppenaufgabe von **André**, **Orhan** und **Norman**.
@@ -11,7 +11,7 @@ Dieses Projekt ist ein Online-Shopping-System, das in Zusammenarbeit zwischen An
 
 Hier ist ein Screenshot des Projekts:
 
-![Demo des Projekts](./demo.png)
+![Demo des Projekts](demo.png)
 
 ## Funktionen
 
