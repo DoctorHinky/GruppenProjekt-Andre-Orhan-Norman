@@ -2,39 +2,42 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="stye.css">
     <meta name="author" content="André Diekmann, Orhan Güzel, Norman Tetzlaff">
-    <meta name="">
-
     <link rel="stylesheet" href="style.css">
-
     <title>Button und Container Beispiel</title>
-
 </head>
 <body>
 
     <header>
-        <h1>Online Shopping</h1>
+        <h1>Online Shopping </h1>
+        <button id="button" onclick="handleClick()">Click me</button>
     </header>
 
     <div id="DivContainer">
         <div class="category">
-            <h2>Category1</h2>
-            <img src="./beautiful.jpg" alt="Category1">
+            <h2>Laptop</h2>
+            <img src="./beautiful.jpg" alt="Laptop">
+            <button class="button-detail" data-category="Laptop" onclick="showCategoryProducts(event)">Detail</button>
         </div>
         <div class="category">
-            <h2>Category2</h2>
-            <img src="./flat-computer.jpg" alt="Category2">
+            <h2>Flat-computer</h2>
+            <img src="./flat-computer.jpg" alt="Flat-computer">
+            <button class="button-detail" data-category="Flat-computer" onclick="showCategoryProducts(event)">Detail</button>
         </div>
         <div class="category">
-            <h2>Category3</h2>
-            <img src="./modern-desktop.jpg" alt="Category3">
+            <h2>Modern-desktop</h2>
+            <img src="./modern-desktop.jpg" alt="Modern-desktop">
+            <button class="button-detail" data-category="Modern-desktop" onclick="showCategoryProducts(event)">Detail</button>
         </div>
+
+        <!-- Ürünlerin Gösterileceği Alan -->
+        <div id="product-list"></div>
 
     </div>
-    <button id="button" onclick="handleClick()">Click me</button>
 
+    
 
+    <script src="products.js"></script>
+    <script src="main.js"></script>
 </body>
-
-</body>
+</html>
