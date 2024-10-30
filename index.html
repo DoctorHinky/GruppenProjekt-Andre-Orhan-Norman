@@ -2,49 +2,39 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Online Shop</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="stye.css">
+    <meta name="author" content="André Diekmann, Orhan Güzel, Norman Tetzlaff">
+    <meta name="">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Button und Container Beispiel</title>
+
 </head>
 <body>
 
-    <!-- Navbar -->
     <header>
-        <h1>Welcome to Our Online Shop</h1>
+        <h1>Online Shopping</h1>
     </header>
 
-
-    <!-- Categories -->
-    <section class="categories">
-        <!-- Category 1 -->
+    <div id="DivContainer">
         <div class="category">
-            <h2>Category 1</h2>
-            <div class="products" id="category1-products"></div>
+            <h2>Category1</h2>
+            <img src="./beautiful.jpg" alt="Category1">
+        </div>
+        <div class="category">
+            <h2>Category2</h2>
+            <img src="./flat-computer.jpg" alt="Category2">
+        </div>
+        <div class="category">
+            <h2>Category3</h2>
+            <img src="./modern-desktop.jpg" alt="Category3">
         </div>
 
-        <!-- Category 2 -->
-        <div class="category">
-            <h2>Category 2</h2>
-            <div class="products" id="category2-products"></div>
-        </div>
+    </div>
+    <button id="button" onclick="handleClick()">Click me</button>
 
-        <!-- Category 3 -->
-        <div class="category">
-            <h2>Category 3</h2>
-            <div class="products" id="category3-products"></div>
-        </div>
-    </section>
 
-    <!-- Product Details -->
-    <section id="product-details" class="product-detail-card">
-        <h3 id="product-detail-title">Product Title</h3>
-        <img id="product-detail-image" src="" alt="Product Image">
-        <p id="product-detail-description">Product Description</p>
-        <p id="product-detail-price">Product Price</p>
-        <button id="close-btn" class="close-btn">Close</button>
-    </section>
-
-    <script src="./products.js"></script>
-    <script src="./main.js"></script>
 </body>
-</html>
+
+</body>
